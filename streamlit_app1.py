@@ -7,7 +7,7 @@ from helper import preprocess_image, load_labels
 
 # Load model and labels
 model = load_model("keras_model_fixed1.h5")
-class_labels = load_labels("labels.txt")
+class_labels = load_labels("labels1.txt")
 
 st.set_page_config(page_title="Pill Quality Checker")
 st.title("💊 Pill Defect Detection (Upload & Webcam)")
